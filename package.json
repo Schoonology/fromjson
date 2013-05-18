@@ -1,0 +1,34 @@
+{
+  "name": "fromjson",
+  "version": "1.0.0",
+  "description": "The simplest and most obvious remote object superclass that I could think of.",
+  "main": "fromjson.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Schoonology/fromjson.git"
+  },
+  "keywords": [
+    "remote",
+    "object",
+    "json",
+    "prototype",
+    "prototypes",
+    "class",
+    "classes"
+  ],
+  "author": "Michael Schoonmaker <michael.r.schoonmaker@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "~1.6.0",
+    "mocha": "~1.9.0"
+  },
+  "dependencies": {
+    "mi": "~1.0.0"
+  }
+}
